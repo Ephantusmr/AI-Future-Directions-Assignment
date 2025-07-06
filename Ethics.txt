@@ -1,0 +1,39 @@
+Ethics in AI-Powered Personalized Medicine Using the Cancer Genomic Atlas
+===========================================================================
+
+Artificial intelligence is transforming personalized medicine, especially in cancer care. 
+By analyzing large-scale genomic datasets like The Cancer Genomic Atlas (TCGA), AI can help 
+match patients with the treatments most likely to work for them. But without attention to 
+ethics and fairness, these systems can unintentionally deepen existing health inequalities.
+
+One major concern is bias in the data. TCGA is heavily weighted toward samples from individuals 
+of European ancestry. This means AI models trained on TCGA may perform well for white patients 
+but poorly for others, such as Black, Hispanic, Asian, or Indigenous groups. As a result, 
+treatment recommendations might be less accurate—or even unsafe—for underrepresented populations. 
+Important genetic markers that influence treatment response may go undetected simply because they 
+don’t appear often enough in the training data.
+
+Bias isn’t only about race or ethnicity. Socioeconomic status can also skew results. Variables 
+like zip code, insurance status, or clinic location may act as proxies for systemic inequities 
+and influence how models make decisions.
+
+To address these challenges, several fairness strategies should be used:
+
+1. Diversify training data:
+   Work with global institutions and underrepresented communities to collect more balanced 
+   genomic and clinical datasets.
+
+2. Bias auditing:
+   Regularly evaluate model performance across demographic groups. Flag and correct 
+   disparities.
+
+3. Transparency and explainability:
+   Use interpretable models so that patients and clinicians understand how recommendations 
+   are made.
+
+4. Fairness-aware algorithms:
+   Apply training techniques like reweighting or adversarial debiasing to reduce bias in 
+   the model itself.
+
+Ethical AI in medicine is not just about accuracy—it’s about equity. These systems must be 
+built to serve everyone, not just those already well represented in the data.
